@@ -1,0 +1,31 @@
+.italic {
+  font-style: italic;
+}
+
+#results {
+  display: none;
+}
+
+.grey {
+  color: #a1a1a1;
+}
+
+hr {
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.red {
+  background-color: #FFCCCC;
+  border: 1px solid #FF6666;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#results {
+  margin-bottom: 100px;
+  background-color: #DDEEFF;
+  border: 1px solid #6EB7FF;
+  border-radius: 15px;
+}

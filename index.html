@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>JS Code Review 1</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h2>JS/JQ Code Review Week 1</h2>
+      </div>
+      <h4>You can create a list of your favorite things</h4>
+      <p class="italic grey">just fill in the blanks and the NSA will do the rest</p>
+
+      <div class="row">
+        <div id="blanks">
+          <form class="col-md-6 red">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" class="form-control" type="text" placeholder="Jose Gonzalez">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" class="form-control" type="text" placeholder="jose.g@skynet.com">
+            </div>
+
+            <hr>
+
+            <!-- food -->
+            <div class="form-group">
+              <label for="food">Favorite Food:</label>
+              <input id="food" name="food" type="text" placeholder=" pizza">
+            </div>
+
+            <!-- car -->
+            <div class="form-group">
+              <label for="car">Favorite Car:</label>
+              <input id="car" name="car" type="text" placeholder=" Camaro">
+            </div>
+
+            <!-- pet -->
+            <div class="form-group">
+              <label for="pet">Favorite Pet:</label>
+              <input id="pet" name="pet" type="text" placeholder=" pet">
+            </div>
+
+            <!-- color -->
+            <div class="form-group">
+              <label for="color">Favorite Color:</label>
+              <input id="color" name="color" type="text" placeholder=" red">
+            </div>
+
+            <button class="btn btn-primary btn-lg">Submit</button>
+          </form>
+        </div>  <!-- /id="blanks" -->
+      </div>  <!-- /row -->
+
+      <!-- hr -->
+      <div class="col-sm-12">
+        <hr>
+      </div>
+
+      <div id="results" class="col-sm-6">
+        <h4>The Results of Your List of Likes</h4>
+
+        <p>Name: <span class="name"></span></p>
+        <p>Email: <span class="email"></span></p>
+        <p>Food: <span class="food"></span></p>
+        <p>Car: <span class="car"></span></p>
+        <p>Pet: <span class="pet"></span></p>
+        <p>Color: <span class="color"></span></p>
+      </div>
+
+    </div>  <!-- /container -->
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
